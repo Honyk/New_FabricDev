@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Sales Report-First DWH"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "e447aa60-6627-4441-b039-6be5699c13e3"
+  }
+}

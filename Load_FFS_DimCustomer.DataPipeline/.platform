@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "DataPipeline",
+    "displayName": "Load_FFS_DimCustomer"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "e4a8090d-345f-470f-922d-f17bf4dca8a9"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Notebook",
+    "displayName": "Explore Sales Orders",
+    "description": "Explore Sales Orders\nAnalyze data with Apache Spark"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "815d25dc-6445-4649-a5c0-5ad891ae5efd"
+  }
+}

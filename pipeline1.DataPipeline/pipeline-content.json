@@ -1,0 +1,23 @@
+{
+  "properties": {
+    "activities": [
+      {
+        "name": "Run DF_Gen1",
+        "type": "RefreshDataflow",
+        "dependsOn": [],
+        "policy": {
+          "timeout": "0.12:00:00",
+          "retry": 0,
+          "retryIntervalInSeconds": 30,
+          "secureOutput": false,
+          "secureInput": false
+        },
+        "typeProperties": {
+          "dataflowId": "8f637be2-7ec7-4f85-a423-5bf7f450bca7",
+          "workspaceId": "c17c1f7b-110a-4909-92d6-dfd520dd52a7",
+          "notifyOption": "NoNotification"
+        }
+      }
+    ]
+  }
+}

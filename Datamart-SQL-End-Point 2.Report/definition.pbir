@@ -1,0 +1,9 @@
+{
+  "version": "4.0",
+  "datasetReference": {
+    "byPath": {
+      "path": "../Datamart-SQL-End-Point 2.SemanticModel"
+    },
+    "byConnection": null
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Datamart-SQL-End-Point"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "b9069956-ba76-40c5-b255-c7410cc7179d"
+  }
+}

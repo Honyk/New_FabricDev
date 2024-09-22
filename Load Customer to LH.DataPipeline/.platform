@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "DataPipeline",
+    "displayName": "Load Customer to LH"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "9f5922f7-900a-4a3f-9ae1-02775c80bf54"
+  }
+}

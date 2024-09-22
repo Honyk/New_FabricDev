@@ -1,0 +1,51 @@
+{
+  "config": "{\"version\":\"5.57\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU08\",\"version\":\"5.57\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY24SU08",
+            "path": "BaseThemes/CY24SU08.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Page 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "f5b297a83c5c069650d7",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"1518248f5e7067d0a314\",\"layouts\":[{\"id\":0,\"position\":{\"x\":494.6774146947502,\"y\":22.485337031579558,\"z\":1,\"width\":407.10294415070354,\"height\":280.47499349917655,\"tabOrder\":1}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Sum(DWH_LakeHouse.Total Order Qty)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DWH_LakeHouse\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Total Order Qty\"}},\"Function\":0},\"Name\":\"Sum(DWH_LakeHouse.Total Order Qty)\",\"NativeReferenceName\":\"Sum of Total Order Qty\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Total Order Qty\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 280.47,
+          "width": 407.10,
+          "x": 494.68,
+          "y": 22.49,
+          "z": 1.00
+        },
+        {
+          "config": "{\"name\":\"71262696abea7585de90\",\"layouts\":[{\"id\":0,\"position\":{\"x\":33.13628615180145,\"y\":46.15411285429488,\"z\":0,\"width\":407.10294415070354,\"height\":280.47499349917655,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Y\":[{\"queryRef\":\"Sum(Sales_Dup.Quantity)\"},{\"queryRef\":\"Sum(Sales_Dup.SalesOrderLineNumber)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Sales_Dup\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Quantity\"}},\"Function\":0},\"Name\":\"Sum(Sales_Dup.Quantity)\",\"NativeReferenceName\":\"Sum of Quantity\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"SalesOrderLineNumber\"}},\"Function\":0},\"Name\":\"Sum(Sales_Dup.SalesOrderLineNumber)\",\"NativeReferenceName\":\"Sum of SalesOrderLineNumber\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Quantity\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 280.47,
+          "width": 407.10,
+          "x": 33.14,
+          "y": 46.15,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}
