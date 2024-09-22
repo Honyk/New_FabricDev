@@ -530,7 +530,7 @@
         ]
       },
       {
-        "name": "d_test.dCustomer",
+        "name": "dCustomer",
         "sourceLineageTag": "[d_test].[dCustomer]",
         "columns": [
           {

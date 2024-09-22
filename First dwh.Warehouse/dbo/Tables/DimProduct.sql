@@ -7,3 +7,6 @@ CREATE TABLE [dbo].[DimProduct] (
 	[ListPrice] decimal(18,0) NULL
 );
 
+
+GO
+ALTER TABLE [dbo].[DimProduct] ADD CONSTRAINT UQ_d52844ad_7796_45fd_824d_c0b12a5485d6 unique NONCLUSTERED ([ProductKey]);

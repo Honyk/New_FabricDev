@@ -10,3 +10,6 @@ CREATE TABLE [dbo].[DimDate] (
 	[Year] int NOT NULL
 );
 
+
+GO
+ALTER TABLE [dbo].[DimDate] ADD CONSTRAINT UQ_71f3b47f_fec1_4dd4_8eee_8bd7029a41fb unique NONCLUSTERED ([DateKey]);

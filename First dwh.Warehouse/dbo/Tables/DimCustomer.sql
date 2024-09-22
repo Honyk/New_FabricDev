@@ -12,3 +12,6 @@ CREATE TABLE [dbo].[DimCustomer] (
 	[PostalCode] varchar(20) NULL
 );
 
+
+GO
+ALTER TABLE [dbo].[DimCustomer] ADD CONSTRAINT UQ_d2ed2eab_0f0a_4bb4_ab1c_deac55fbbc72 unique NONCLUSTERED ([CustomerKey]);
